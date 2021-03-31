@@ -1,0 +1,10 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.inverted {
+	background-color: black;
+	color: white;
+}
+.centered {
+	text-align: center;
+}

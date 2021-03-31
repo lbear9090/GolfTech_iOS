@@ -1,0 +1,2 @@
+@interface VideoMask : UIView
+@end

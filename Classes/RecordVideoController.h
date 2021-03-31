@@ -1,0 +1,2 @@
+@interface RecordVideoController : UIImagePickerController
+@end

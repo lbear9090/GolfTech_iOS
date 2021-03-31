@@ -1,0 +1,773 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>UAAppIntegration Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Urban Airship iOS Library 8.0.2 </a></h1>
+				<a id="developerHome" href="../index.html">Urban Airship</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">UAAppIntegration Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/application:didReceiveRemoteNotification:fetchCompletionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;+ application:didReceiveRemoteNotification:fetchCompletionHandler:</option>
+	
+	<option value="//api/name/application:didRegisterForRemoteNotificationsWithDeviceToken:">&nbsp;&nbsp;&nbsp;&nbsp;+ application:didRegisterForRemoteNotificationsWithDeviceToken:</option>
+	
+	<option value="//api/name/application:didRegisterUserNotificationSettings:">&nbsp;&nbsp;&nbsp;&nbsp;+ application:didRegisterUserNotificationSettings:</option>
+	
+	<option value="//api/name/application:handleActionWithIdentifier:forRemoteNotification:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;+ application:handleActionWithIdentifier:forRemoteNotification:completionHandler:</option>
+	
+	<option value="//api/name/application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;+ application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:</option>
+	
+	<option value="//api/name/userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;+ userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:</option>
+	
+	<option value="//api/name/userNotificationCenter:willPresentNotification:withCompletionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;+ userNotificationCenter:willPresentNotification:withCompletionHandler:</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_UNUserNotificationDelegate hooks">UNUserNotificationDelegate hooks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_UIApplicationDelegate hooks">UIApplicationDelegate hooks</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/application:didReceiveRemoteNotification:fetchCompletionHandler:">application:didReceiveRemoteNotification:fetchCompletionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/application:didRegisterForRemoteNotificationsWithDeviceToken:">application:didRegisterForRemoteNotificationsWithDeviceToken:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/application:didRegisterUserNotificationSettings:">application:didRegisterUserNotificationSettings:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/application:handleActionWithIdentifier:forRemoteNotification:completionHandler:">application:handleActionWithIdentifier:forRemoteNotification:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:">application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:">userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userNotificationCenter:willPresentNotification:withCompletionHandler:">userNotificationCenter:willPresentNotification:withCompletionHandler:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="UAAppIntegration Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">UAAppIntegration Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">UAAppIntegration.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Application hooks required by Urban Airship. If <code>automaticSetupEnabled</code> is enabled
+(enabled by default), Urban Airship will automatically integrate these calls into
+the application by swizzling methods. If <code>automaticSetupEnabled</code> is disabled,
+the application must call through to every method provided by this class.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="UNUserNotificationDelegate hooks" name="task_UNUserNotificationDelegate hooks"></a>
+						<h3 class="subsubtitle task-title">UNUserNotificationDelegate hooks</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:">+&nbsp;userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userNotificationCenter:willPresentNotification:withCompletionHandler:">+&nbsp;userNotificationCenter:willPresentNotification:withCompletionHandler:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="UIApplicationDelegate hooks" name="task_UIApplicationDelegate hooks"></a>
+						<h3 class="subsubtitle task-title">UIApplicationDelegate hooks</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/application:didRegisterForRemoteNotificationsWithDeviceToken:">+&nbsp;application:didRegisterForRemoteNotificationsWithDeviceToken:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/application:didReceiveRemoteNotification:fetchCompletionHandler:">+&nbsp;application:didReceiveRemoteNotification:fetchCompletionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/application:didRegisterUserNotificationSettings:">+&nbsp;application:didRegisterUserNotificationSettings:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/application:handleActionWithIdentifier:forRemoteNotification:completionHandler:">+&nbsp;application:handleActionWithIdentifier:forRemoteNotification:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:">+&nbsp;application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/application:didReceiveRemoteNotification:fetchCompletionHandler:" title="application:didReceiveRemoteNotification:fetchCompletionHandler:"></a>
+	<h3 class="subsubtitle method-title">application:didReceiveRemoteNotification:fetchCompletionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UIApplicationDelegate&rsquo;s
+application:didReceiveRemoteNotification:fetchCompletionHandler:.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)application:(UIApplication *)<em>application</em> didReceiveRemoteNotification:(NSDictionary *)<em>userInfo</em> fetchCompletionHandler:(void ( ^ ) ( UIBackgroundFetchResult ))<em>completionHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>application</em></dt>
+			<dd><p>The application instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userInfo</em></dt>
+			<dd><p>The remote notification.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>The completion handler.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/application:didRegisterForRemoteNotificationsWithDeviceToken:" title="application:didRegisterForRemoteNotificationsWithDeviceToken:"></a>
+	<h3 class="subsubtitle method-title">application:didRegisterForRemoteNotificationsWithDeviceToken:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UIApplicationDelegate&rsquo;s
+application:didRegisterForRemoteNotificationsWithDeviceToken:.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)application:(UIApplication *)<em>application</em> didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)<em>deviceToken</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>application</em></dt>
+			<dd><p>The application instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>deviceToken</em></dt>
+			<dd><p>The APNS device token.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/application:didRegisterUserNotificationSettings:" title="application:didRegisterUserNotificationSettings:"></a>
+	<h3 class="subsubtitle method-title">application:didRegisterUserNotificationSettings:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UIApplicationDelegate&rsquo;s
+application:didRegisterUserNotificationSettings:.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)application:(UIApplication *)<em>application</em> didRegisterUserNotificationSettings:(UIUserNotificationSettings *)<em>notificationSettings</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>application</em></dt>
+			<dd><p>The application instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>notificationSettings</em></dt>
+			<dd><p>The user notification settings.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: This method is relevant only for apps targeting iOS 8 and iOS 9.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/application:handleActionWithIdentifier:forRemoteNotification:completionHandler:" title="application:handleActionWithIdentifier:forRemoteNotification:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">application:handleActionWithIdentifier:forRemoteNotification:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UIApplicationDelegate&rsquo;s
+application:handleActionWithIdentifier:forRemoteNotification:completionHandler</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)application:(UIApplication *)<em>application</em> handleActionWithIdentifier:(NSString *)<em>identifier</em> forRemoteNotification:(NSDictionary *)<em>userInfo</em> completionHandler:(void ( ^ ) ( ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>application</em></dt>
+			<dd><p>The application instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>The action identifier.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userInfo</em></dt>
+			<dd><p>The remote notification.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: This method is relevant only for apps targeting iOS 8 and iOS 9.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:" title="application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UIApplicationDelegate&rsquo;s
+application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo:completionHandler</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)application:(UIApplication *)<em>application</em> handleActionWithIdentifier:(NSString *)<em>identifier</em> forRemoteNotification:(NSDictionary *)<em>userInfo</em> withResponseInfo:(nullable NSDictionary *)<em>responseInfo</em> completionHandler:(void ( ^ ) ( ))<em>handler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>application</em></dt>
+			<dd><p>The application instance.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>The action identifier.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>userInfo</em></dt>
+			<dd><p>The remote notification.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>responseInfo</em></dt>
+			<dd><p>The user response info.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>handler</em></dt>
+			<dd><p>The completion handler</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: This method is relevant only for apps targeting iOS 8 and iOS 9.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:" title="userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:"></a>
+	<h3 class="subsubtitle method-title">userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UNUserNotificationDelegate&rsquo;s
+userNotificationCenter:willPresentNotification:withCompletionHandler.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)userNotificationCenter:(UNUserNotificationCenter *)<em>center</em> didReceiveNotificationResponse:(UNNotificationResponse *)<em>response</em> withCompletionHandler:(void ( ^ ) ( ))<em>completionHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>center</em></dt>
+			<dd><p>The notification center.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>response</em></dt>
+			<dd><p>The notification response.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>A completion handler.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: This method is relevant only for iOS 10 and above.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userNotificationCenter:willPresentNotification:withCompletionHandler:" title="userNotificationCenter:willPresentNotification:withCompletionHandler:"></a>
+	<h3 class="subsubtitle method-title">userNotificationCenter:willPresentNotification:withCompletionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Must be called by the UNUserNotificationDelegate&rsquo;s
+userNotificationCenter:willPresentNotification:withCompletionHandler.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)userNotificationCenter:(UNUserNotificationCenter *)<em>center</em> willPresentNotification:(UNNotification *)<em>notification</em> withCompletionHandler:(void ( ^ ) ( UNNotificationPresentationOptions options ))<em>completionHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>center</em></dt>
+			<dd><p>The notification center.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>notification</em></dt>
+			<dd><p>The notification about to be presented.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>A completion handler to be called with the desired notification presentation options.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Note: this method is relevant only for iOS 10 and above.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAAppIntegration.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Urban Airship. All rights reserved. (Last updated: 2016-10-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

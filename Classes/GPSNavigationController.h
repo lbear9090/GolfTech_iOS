@@ -1,0 +1,2 @@
+@interface GPSNavigationController : UINavigationController
+@end

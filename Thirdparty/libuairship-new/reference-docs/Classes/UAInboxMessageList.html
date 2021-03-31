@@ -1,0 +1,897 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>UAInboxMessageList Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Urban Airship iOS Library 8.0.2 </a></h1>
+				<a id="developerHome" href="../index.html">Urban Airship</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">UAInboxMessageList Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/isBatchUpdating">&nbsp;&nbsp;&nbsp;&nbsp;isBatchUpdating</option>
+	
+	<option value="//api/name/isRetrieving">&nbsp;&nbsp;&nbsp;&nbsp;isRetrieving</option>
+	
+	<option value="//api/name/messages">&nbsp;&nbsp;&nbsp;&nbsp;messages</option>
+	
+	<option value="//api/name/unreadCount">&nbsp;&nbsp;&nbsp;&nbsp;unreadCount</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/markMessagesDeleted:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- markMessagesDeleted:completionHandler:</option>
+	
+	<option value="//api/name/markMessagesRead:completionHandler:">&nbsp;&nbsp;&nbsp;&nbsp;- markMessagesRead:completionHandler:</option>
+	
+	<option value="//api/name/messageCount">&nbsp;&nbsp;&nbsp;&nbsp;- messageCount</option>
+	
+	<option value="//api/name/messageForBodyURL:">&nbsp;&nbsp;&nbsp;&nbsp;- messageForBodyURL:</option>
+	
+	<option value="//api/name/messageForID:">&nbsp;&nbsp;&nbsp;&nbsp;- messageForID:</option>
+	
+	<option value="//api/name/messagesFilteredUsingPredicate:">&nbsp;&nbsp;&nbsp;&nbsp;- messagesFilteredUsingPredicate:</option>
+	
+	<option value="//api/name/retrieveMessageListWithSuccessBlock:withFailureBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- retrieveMessageListWithSuccessBlock:withFailureBlock:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isBatchUpdating">isBatchUpdating</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isRetrieving">isRetrieving</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messages">messages</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unreadCount">unreadCount</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/markMessagesDeleted:completionHandler:">markMessagesDeleted:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/markMessagesRead:completionHandler:">markMessagesRead:completionHandler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageCount">messageCount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageForBodyURL:">messageForBodyURL:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageForID:">messageForID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messagesFilteredUsingPredicate:">messagesFilteredUsingPredicate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/retrieveMessageListWithSuccessBlock:withFailureBlock:">retrieveMessageListWithSuccessBlock:withFailureBlock:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="UAInboxMessageList Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">UAInboxMessageList Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">UAInboxMessageList.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The primary interface to the contents of the inbox.
+Use this class to asychronously retrieve messges from the server,
+delete or mark <a href="#//api/name/messages">messages</a> as read, retrieve individual <a href="#//api/name/messages">messages</a> from the
+list.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/markMessagesRead:completionHandler:">&ndash;&nbsp;markMessagesRead:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/markMessagesDeleted:completionHandler:">&ndash;&nbsp;markMessagesDeleted:completionHandler:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/retrieveMessageListWithSuccessBlock:withFailureBlock:">&ndash;&nbsp;retrieveMessageListWithSuccessBlock:withFailureBlock:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messagesFilteredUsingPredicate:">&ndash;&nbsp;messagesFilteredUsingPredicate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageCount">&ndash;&nbsp;messageCount</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageForBodyURL:">&ndash;&nbsp;messageForBodyURL:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageForID:">&ndash;&nbsp;messageForID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messages">&nbsp;&nbsp;messages</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unreadCount">&nbsp;&nbsp;unreadCount</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isRetrieving">&nbsp;&nbsp;isRetrieving</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isBatchUpdating">&nbsp;&nbsp;isBatchUpdating</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/isBatchUpdating" title="isBatchUpdating"></a>
+	<h3 class="subsubtitle method-title">isBatchUpdating</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>YES if message batching is currently in progress.
+NO otherwise.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) BOOL isBatchUpdating</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isRetrieving" title="isRetrieving"></a>
+	<h3 class="subsubtitle method-title">isRetrieving</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>YES if retrieving message list is currently in progress.
+NO otherwise.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) BOOL isRetrieving</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messages" title="messages"></a>
+	<h3 class="subsubtitle method-title">messages</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The list of messages on disk as an NSArray.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, strong) NSArray&lt;UAInboxMessage*&gt; *messages</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unreadCount" title="unreadCount"></a>
+	<h3 class="subsubtitle method-title">unreadCount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The number of <a href="#//api/name/messages">messages</a> that are currently unread or -1
+if the message list is not loaded.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign) NSInteger unreadCount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/markMessagesDeleted:completionHandler:" title="markMessagesDeleted:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">markMessagesDeleted:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Marks <a href="#//api/name/messages">messages</a> deleted. They will be marked locally as deleted and synced with
+Urban Airship on the next message retrieval.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (nullable UADisposable *)markMessagesDeleted:(NSArray *)<em>messages</em> completionHandler:(nullable UAInboxMessageListCallbackBlock)<em>completionHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>messages</em></dt>
+			<dd><p>The array of <a href="#//api/name/messages">messages</a> to be marked deleted.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>An optional completion handler.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A <a href="../Classes/UADisposable.html">UADisposable</a> token which can be used to cancel callback execution,
+or nil if the array of <a href="#//api/name/messages">messages</a> to mark deleted is empty.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/markMessagesRead:completionHandler:" title="markMessagesRead:completionHandler:"></a>
+	<h3 class="subsubtitle method-title">markMessagesRead:completionHandler:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Marks <a href="#//api/name/messages">messages</a> read. They will be marked locally as read and synced with
+Urban Airship on the next message retrieval.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (nullable UADisposable *)markMessagesRead:(NSArray *)<em>messages</em> completionHandler:(nullable UAInboxMessageListCallbackBlock)<em>completionHandler</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>messages</em></dt>
+			<dd><p>The array of <a href="#//api/name/messages">messages</a> to be marked read.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>completionHandler</em></dt>
+			<dd><p>An optional completion handler.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A <a href="../Classes/UADisposable.html">UADisposable</a> token which can be used to cancel callback execution,
+or nil if the array of <a href="#//api/name/messages">messages</a> to mark read is empty.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageCount" title="messageCount"></a>
+	<h3 class="subsubtitle method-title">messageCount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the number of <a href="#//api/name/messages">messages</a> currently in the inbox.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)messageCount</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The message count as an integer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageForBodyURL:" title="messageForBodyURL:"></a>
+	<h3 class="subsubtitle method-title">messageForBodyURL:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the message associated with a particular URL.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (nullable UAInboxMessage *)messageForBodyURL:(NSURL *)<em>url</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>url</em></dt>
+			<dd><p>The URL of the message</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The associated <a href="../Classes/UAInboxMessage.html">UAInboxMessage</a> object or nil if a message was
+unable to be found.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageForID:" title="messageForID:"></a>
+	<h3 class="subsubtitle method-title">messageForID:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the message associated with a particular ID.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (nullable UAInboxMessage *)messageForID:(NSString *)<em>messageID</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>messageID</em></dt>
+			<dd><p>The message ID as an NSString.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The associated <a href="../Classes/UAInboxMessage.html">UAInboxMessage</a> object or nil if a message was
+unable to be found.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messagesFilteredUsingPredicate:" title="messagesFilteredUsingPredicate:"></a>
+	<h3 class="subsubtitle method-title">messagesFilteredUsingPredicate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the list of <a href="#//api/name/messages">messages</a> on disk as an NSArray, filtered by the supplied predicate.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray&lt;UAInboxMessage*&gt; *)messagesFilteredUsingPredicate:(NSPredicate *)<em>predicate</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>predicate</em></dt>
+			<dd><p>The predicate to use as a filter over <a href="#//api/name/messages">messages</a>.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/retrieveMessageListWithSuccessBlock:withFailureBlock:" title="retrieveMessageListWithSuccessBlock:withFailureBlock:"></a>
+	<h3 class="subsubtitle method-title">retrieveMessageListWithSuccessBlock:withFailureBlock:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fetch new <a href="#//api/name/messages">messages</a> from the server. If the associated user has not yet
+been created, this will be a no-op.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (nullable UADisposable *)retrieveMessageListWithSuccessBlock:(nullable UAInboxMessageListCallbackBlock)<em>successBlock</em> withFailureBlock:(nullable UAInboxMessageListCallbackBlock)<em>failureBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>successBlock</em></dt>
+			<dd><p>A block to be executed if message retrieval succeeds.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>failureBlock</em></dt>
+			<dd><p>A block to be executed if message retrieval fails.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A <a href="../Classes/UADisposable.html">UADisposable</a> token which can be used to cancel callback execution.
+This value will be nil if the associated user has not yet been created.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">UAInboxMessageList.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Urban Airship. All rights reserved. (Last updated: 2016-10-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

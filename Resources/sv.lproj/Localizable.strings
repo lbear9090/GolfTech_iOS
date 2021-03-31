@@ -1,0 +1,317 @@
+"Teknik" = "Instruktion";
+ 
+/* Ange poäng sida */
+"Ange ditt senaste resultat på övningen" = "Ange ditt senaste resultat på övningen";
+
+/* Kategorinamn */
+"Bunker" = "Bunker";
+
+"Bunker nivå 1 teknik 1" = "Uppställning";
+"Bunker nivå 1 teknik 1 sammanfattning" = "bred, stabil och öppen stans.";
+
+"Bunker nivå 1 teknik 2" = "Sving";
+"Bunker nivå 1 teknik 2 sammanfattning" = "träffa sanden 3-5 cm före bollen.";
+
+"Bunker nivå 1 teknik 3" = "Längdkontroll";
+"Bunker nivå 1 teknik 3 sammanfattning" = "lika lång bak- som framsving.";
+
+
+"Bunker nivå 2 teknik 1" = "Lutande lägen";
+"Bunker nivå 2 teknik 1 sammanfattning" = "axlarna följer lutningen.";
+
+
+"Bunker nivå 2 teknik 2" = "Sandtyper";
+"Bunker nivå 2 teknik 2 sammanfattning" = "anpassa svingen efter sandtypen.";
+
+"Bunker nivå 2 teknik 3" = "Höga bunkerslag";
+"Bunker nivå 2 teknik 3 sammanfattning" = "öppet klubblad i hela svingen!";
+
+"Bunker nivå 3 teknik 1" = "Klubbval";
+"Bunker nivå 3 teknik 1 sammanfattning" = "använd även t ex en 8:a i bunkern!";
+
+"Bunker nivå 3 teknik 2" = "Pluggad boll";
+"Bunker nivå 3 teknik 2 sammanfattning" = "brant nedsving och slå hårt.";
+
+"Bunker nivå 3 teknik 3" = "Sidolägen";
+"Bunker nivå 3 teknik 3 sammanfattning" = "anpassa greppet och siktet.";
+
+"Bunker övning 1" = "Sandparad";
+"Bunker övning 1 sammanfattning" = "riktning och längdkänsla!";
+
+
+"Bunker övning 2" = "Up and down";
+"Bunker övning 2 sammanfattning" = "ett bunkerslag och en putt.";
+
+
+"Bunker utvärdering" = "Nivåtest bunker";
+"Bunker utvärdering sammanfattning" = "högre nivå för säkrare bunkerslag.";
+
+
+"Chip" = "Chip";
+
+"Chip nivå 1 teknik 1" = "Uppställning";
+"Chip nivå 1 teknik 1 sammanfattning" = "öppen stans och bollen i mitten.";
+
+"Chip nivå 1 teknik 2" = "Chiprörelse";
+"Chip nivå 1 teknik 2 sammanfattning" = "händerna framför bollen.";
+
+"Chip nivå 1 teknik 3" = "Klubbval";
+"Chip nivå 1 teknik 3 sammanfattning" = "använd olika loft för olika längd.";
+
+
+"Chip nivå 2 teknik 1" = "Alternativ chip";
+"Chip nivå 2 teknik 1 sammanfattning" = "chippa med hybrid eller putta.";
+
+
+"Chip nivå 2 teknik 2" = "Lutande lägen";
+"Chip nivå 2 teknik 2 sammanfattning" = "anpassa loft efter lutningen!";
+
+"Chip nivå 2 teknik 3" = "Chip från ruff";
+"Chip nivå 2 teknik 3 sammanfattning" = "placera längre bak och ta mer loft.";
+
+"Chip nivå 3 teknik 1" = "Distanskontroll";
+"Chip nivå 3 teknik 1 sammanfattning" = "grepptryck och tempo.";
+
+
+"Chip nivå 3 teknik 2" = "Landa";
+"Chip nivå 3 teknik 2 sammanfattning" = "läs greenen och landa på rätt plats.";
+
+"Chip nivå 3 teknik 3" = "Extra rull";
+"Chip nivå 3 teknik 3 sammanfattning" = "ge bollen en drawkänsla!";
+
+
+"Chip övning 1" = "Klart för landning";
+"Chip övning 1 sammanfattning" = "träna på att landa bollen rätt.";
+
+"Chip övning 2" = "Bollparad";
+"Chip övning 2 sammanfattning" = "träna på din längdkänsla.";
+
+"Chip utvärdering" = "Nivåtest chip";
+"Chip utvärdering sammanfattning" = "din nivå för både långa och korta chippar.";
+
+/* Scoretab */
+"Current Total Level" = "Snitt nivåtest";
+
+/* No comment provided by engineer. */
+"Extra rull" = "Extra rull";
+
+/* Navigationsrad */
+"Nytt resultat" = "Nytt resultat";
+
+"OK" = "OK";
+
+/* Statistiksida */
+"Övning:" = "Övning:";
+
+"Pitch" = "Pitch";
+
+"Pitch nivå 1 teknik 1" = "Uppställning";
+"Pitch nivå 1 teknik 1 sammanfattning" = "händerna mitt över bollen!";
+
+"Pitch nivå 1 teknik 2" = "Svingrörelse";
+"Pitch nivå 1 teknik 2 sammanfattning" = "rotera kroppen och öppen stans.";
+
+
+"Pitch nivå 1 teknik 3" = "Klubbval";
+"Pitch nivå 1 teknik 3 sammanfattning" = "lär dig pitcha med olika wedgar!";
+
+
+"Pitch nivå 2 teknik 1" = "Längdkontroll";
+"Pitch nivå 2 teknik 1 sammanfattning" = "variera längden på baksvingen!";
+
+
+"Pitch nivå 2 teknik 2" = "Öppet klubblad";
+"Pitch nivå 2 teknik 2 sammanfattning" = "klubban öppen i svingen.";
+
+
+"Pitch nivå 2 teknik 3" = "Pitch från ruff";
+"Pitch nivå 2 teknik 3 sammanfattning" = "använd en brantare sving.";
+
+
+"Pitch nivå 3 teknik 1" = "Hårt underlag";
+"Pitch nivå 3 teknik 1 sammanfattning" = "prova Pitch-and-Run.";
+
+
+"Pitch nivå 3 teknik 2" = "Pitch med bite";
+"Pitch nivå 3 teknik 2 sammanfattning" = "mjuk boll och ren bollträff.";
+
+
+"Pitch nivå 3 teknik 3" = "Lobb";
+"Pitch nivå 3 teknik 3 sammanfattning" = "placera bollen längre fram.";
+
+
+"Pitch övning 1" = "Skapa en pitchbana";
+"Pitch övning 1 sammanfattning" = "en kul och givande övning.";
+
+
+"Pitch övning 2" = "Carry";
+"Pitch övning 2 sammanfattning" = "träna på att variera din carry.";
+
+
+"Pitch utvärdering" = "Nivåtest pitch";
+"Pitch utvärdering sammanfattning" = "öva in en bra pitchkänsla!";
+
+"Putt" = "Putt";
+
+"Putt nivå 1 teknik 1" = "Uppställning";
+"Putt nivå 1 teknik 1 sammanfattning" = "putta avslappnat och fördela vikten.";
+
+
+"Putt nivå 1 teknik 2" = "Pendel";
+"Putt nivå 1 teknik 2 sammanfattning" = "håll armar och skaft som ett Y!";
+
+
+"Putt nivå 1 teknik 3" = "Sikte";
+"Putt nivå 1 teknik 3 sammanfattning" = "parallell ögonlinje med puttlinjen.";
+
+
+"Putt nivå 2 teknik 1" = "Läsa en green";
+"Putt nivå 2 teknik 1 sammanfattning" = "studera greenens lutning.";
+
+
+"Putt nivå 2 teknik 2" = "Lyssna på putten";
+"Putt nivå 2 teknik 2 sammanfattning" = "titta inte upp!";
+
+
+"Putt nivå 2 teknik 3" = "Grepptryck och tempo";
+"Putt nivå 2 teknik 3 sammanfattning" = "känn tyngden i puttern.";
+
+
+"Putt nivå 3 teknik 1" = "Square";
+"Putt nivå 3 teknik 1 sammanfattning" = "kroppen square mot puttlinjen.";
+
+
+"Putt nivå 3 teknik 2" = "Bra rutin";
+"Putt nivå 3 teknik 2 sammanfattning" = "alltid samma rutin inför varje putt";
+
+
+"Putt nivå 3 teknik 3" = "Putt från ruffkant";
+"Putt nivå 3 teknik 3 sammanfattning" = "putta med pitchen!";
+
+
+"Putt övning 1" = "Linjalen";
+"Putt övning 1 sammanfattning" = "öka ditt säkerhets\U00ADavstånd.";
+
+
+"Putt övning 2" = "Chans varje gång";
+"Putt övning 2 sammanfattning" = "putta alltid fram till hålet!";
+
+
+"Putt utvärdering" = "Nivåtest putt";
+"Putt utvärdering sammanfattning" = "kan du både långa och korta puttar?";
+
+
+/* Statistikknapp */
+"Statistik" = "Statistik";
+
+/* Tillbakaknapp */
+"Tillbaka" = "Tillbaka";
+
+/* Statistiksida */
+"Utvärdering " = "Nivåtest ";
+
+/* Statistiksida */
+"Utvecklingskurvor:" = "Utvecklingskurvor";
+
+"Öva" = "Öva";
+"Nivå N" = "Nivå %1$d";
+"Poäng N" = "Poäng %1$d";
+
+"Video" = "Spela in";
+"Kamera saknas" = "Kamera saknas";
+"Ingen kamera hittades" = "Ingen kamera hittades";
+"Namn ny inspelning" = "Inspelning";
+"Jämför" = "Jämför";
+"Mina video" = "Mina video";
+"Pro video" = "Pro video";
+"Jämför med" = "Jämför med";
+"Långsamt" = "Långsamt";
+"Mer" = "Mer";
+"Inspelning" = "Inspelning";
+
+"Dela email" = "%@ %@\n\nInspelad med GolfTech";
+
+/* Demotabb */
+
+"Email feedback" = "info@golftech.se";
+"Email saknas" = "Email saknas";
+"Det går inte att skicka email" = "Det går inte att skicka email";
+"Feedback titel" = "Feedback för GolfTech";
+"Feedback email text" = "";
+"Nyhetsbrev titel" = "Nyhetsbrev";
+"Nyhetsbrev text" = "Ja tack! Skicka mig gärna infomail med nyheter om Golftech och erbjudanden.";
+
+"Nedladdningen misslyckades" = "Nedladdningen misslyckades";
+"Drive" = "Utslag";
+"Drive utvärdering" = "Utslag utvärdering";
+"Drive övning 1" = "Utslag övning 1";
+"Drive övning 2" = "Utslag övning 2";
+
+"Drive nivå 1 teknik 1" = "Öppet klubbhuvud";
+"Drive nivå 1 teknik 1 sammanfattning" = "starkare grepp.";
+
+"Drive nivå 1 teknik 2" = "Svingspåret";
+"Drive nivå 1 teknik 2 sammanfattning" = "när svingen skär utifrån och in.";
+
+"Drive nivå 1 teknik 3" = "Start av nedsving";
+"Drive nivå 1 teknik 3 sammanfattning" = "starta med höftrörelse.";
+
+"Drive nivå 2 teknik 1" = "Bollträff";
+"Drive nivå 2 teknik 1 sammanfattning" = "rätt bollplacering ger kraft och längd.";
+
+"Drive nivå 2 teknik 2" = "Centrering";
+"Drive nivå 2 teknik 2 sammanfattning" = "rotera och stå centrerat.";
+
+"Drive nivå 2 teknik 3" = "Vidd";
+"Drive nivå 2 teknik 3 sammanfattning" = "skapa vidd för mer kraft.";
+
+"Drive nivå 3 teknik 1" = "Release";
+"Drive nivå 3 teknik 1 sammanfattning" = "eftersträva sen release.";
+
+"Drive nivå 3 teknik 2" = "Utslag nivå 3 teknik 2";
+"Drive nivå 3 teknik 2 sammanfattning" = "Drive nivå 3 teknik 2 sammanfattning";
+
+"Drive nivå 3 teknik 3" = "Utslag nivå 3 teknik 3";
+"Drive nivå 3 teknik 3 sammanfattning" = "Drive nivå 3 teknik 3 sammanfattning";
+
+"Drive utvärdering sammanfattning" = "Utslag utvärdering sammanfattning";
+"Drive övning 1 sammanfattning" = "Utslag övning 1 sammanfattning";
+"Drive övning 2 sammanfattning" = "Utslag övning 2 sammanfattning";
+
+/* Kategorinamn */
+
+"Nytt" = "Nyheter";
+"Nytt utvärdering" = "Nytt utvärdering";
+"Nytt övning 1" = "Nytt övning 1";
+"Nytt övning 2" = "Nytt övning 2";
+
+"Nytt nivå 1 teknik 1" = "Hook";
+"Nytt nivå 1 teknik 1 sammanfattning" = "ditt grepp är ofta för starkt.";
+
+"Nytt nivå 1 teknik 2" = "Draw";
+"Nytt nivå 1 teknik 2 sammanfattning" = "lär dig slå en draw.";
+
+"Nytt nivå 1 teknik 3" = "Fade";
+"Nytt nivå 1 teknik 3 sammanfattning" = "utnyttja en fade.";
+
+"Nytt nivå 2 teknik 1" = "Fairwaybunker";
+"Nytt nivå 2 teknik 1 sammanfattning" = "olika klubbor för olika lägen.";
+
+"Nytt nivå 2 teknik 2" = "Nytt 2-2";
+"Nytt nivå 2 teknik 2 sammanfattning" = "Nytt nivå 2 teknik 2 sammanfattnin";
+
+"Nytt nivå 2 teknik 3" = "Nytt 2-3";
+"Nytt nivå 2 teknik 3 sammanfattning" = "Nytt nivå 2 teknik 3 sammanfattnin.";
+
+"Nytt nivå 3 teknik 1" = "Nytt 3-1";
+"Nytt nivå 3 teknik 1 sammanfattning" = "Nytt nivå 3 teknik 1 sammanfattning.";
+
+"Nytt nivå 3 teknik 2" = "Nytt 3-2";
+"Nytt nivå 3 teknik 2 sammanfattning" = "Nytt nivå 3 teknik 2 sammanfattning";
+
+"Nytt nivå 3 teknik 3" = "Nytt 3-3";
+"Nytt nivå 3 teknik 3 sammanfattning" = "Nytt nivå 3 teknik 3 sammanfattning";
+
+"Nytt utvärdering sammanfattning" = "Utslag utvärdering sammanfattning";
+"Nytt övning 1 sammanfattning" = "Utslag övning 1 sammanfattning";
+"Nytt övning 2 sammanfattning" = "Utslag övning 2 sammanfattning";

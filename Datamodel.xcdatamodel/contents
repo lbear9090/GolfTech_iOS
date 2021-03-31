@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0"
+       lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.5" macOSVersion="Automatic"
+       iOSVersion="Automatic">
+    <entity name="Result" representedClassName="Result" syncable="YES">
+        <attribute name="exerciseId" attributeType="String" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="timeValue" attributeType="Double" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="value" attributeType="Integer 32" minValueString="0" maxValueString="18" syncable="YES"/>
+    </entity>
+    <entity name="Swing" representedClassName="Recording" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Result" positionX="288" positionY="135" width="128" height="90"/>
+        <element name="Swing" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
